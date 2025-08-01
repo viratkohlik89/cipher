@@ -55,6 +55,7 @@ export const PuzzleGame = ({ mode, currentLevel, maxLevel, onBack, onLevelComple
   const [startTime] = useState(Date.now());
   const [timeElapsed, setTimeElapsed] = useState(0);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [showNext, setShowNext] = useState(false);
   const [language, setLanguage] = useState(() => {
     if (typeof window !== 'undefined') {
       return localStorage.getItem('cipher_language') || 'en';
@@ -98,6 +99,7 @@ export const PuzzleGame = ({ mode, currentLevel, maxLevel, onBack, onLevelComple
     setFeedback({ type: null, message: '' });
     setShowHint(false);
     setIsSubmitting(false);
+    setShowNext(false);
   }, [currentLevel]);
 
   if (!currentPuzzle) {
@@ -126,9 +128,7 @@ export const PuzzleGame = ({ mode, currentLevel, maxLevel, onBack, onLevelComple
         type: 'success',
         message: language === 'en' ? 'Correct! Well done, Agent.' : 'Sahi hai! Shabash, Agent.'
       });
-      setTimeout(() => {
-        onLevelComplete();
-      }, 2000);
+      setShowNext(true);
     } else {
       setFeedback({
         type: 'error',
@@ -317,19 +317,21 @@ export const PuzzleGame = ({ mode, currentLevel, maxLevel, onBack, onLevelComple
 
               {/* Action buttons */}
               <div className="flex gap-3 pt-2">
-                <button
-                  onClick={handleSubmit}
-                  disabled={!userAnswer.trim() || isSubmitting || feedback.type === 'success'}
-                  className={`
-                    cipher-button flex-1
-                    ${isSubmitting ? 'opacity-75 cursor-not-allowed' : ''}
-                    ${feedback.type === 'success' ? 'success-pulse' : ''}
-                  `}
-                >
-                  {isSubmitting
-                    ? (language === 'en' ? 'ANALYZING...' : 'Socha ja raha hai...')
-                    : (language === 'en' ? 'SUBMIT ANSWER' : 'Jawaab Do')}
-                </button>
+                {!showNext && (
+                  <button
+                    onClick={handleSubmit}
+                    disabled={!userAnswer.trim() || isSubmitting || feedback.type === 'success'}
+                    className={`
+                      cipher-button flex-1
+                      ${isSubmitting ? 'opacity-75 cursor-not-allowed' : ''}
+                      ${feedback.type === 'success' ? 'success-pulse' : ''}
+                    `}
+                  >
+                    {isSubmitting
+                      ? (language === 'en' ? 'ANALYZING...' : 'Socha ja raha hai...')
+                      : (language === 'en' ? 'SUBMIT ANSWER' : 'Jawaab Do')}
+                  </button>
+                )}
 
                 {!hintsUsed[currentPuzzle.id] && !showHint && (
                   <button
@@ -346,6 +348,20 @@ export const PuzzleGame = ({ mode, currentLevel, maxLevel, onBack, onLevelComple
                 >
                   <RotateCcw className="w-5 h-5" />
                 </button>
+
+                {showNext && (
+                  <button
+                    onClick={() => {
+                      setShowNext(false);
+                      setFeedback({ type: null, message: '' });
+                      setUserAnswer('');
+                      onLevelComplete();
+                    }}
+                    className="cipher-button flex-1 bg-success/80 hover:bg-success text-white font-bold animate-fade-in"
+                  >
+                    {language === 'en' ? 'NEXT' : 'Aage Badho'}
+                  </button>
+                )}
               </div>
             </div>
           </div>
