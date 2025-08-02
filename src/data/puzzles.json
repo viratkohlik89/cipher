@@ -2,83 +2,103 @@
     "easy":[
   {
     "id": "e1",
-    "question_en": "You visit a website every day at the same time and notice the page title changes. The titles you recorded are: 'THIRD', 'FIRST', 'FOURTH', 'FIFTH', 'SECOND'. When you visit tomorrow, what will the title be?",
-    "question_hi": "Tum roz ek website same time pe visit karte ho aur notice karte ho ki page ka title har din change hota hai. Tumne jo titles record kiye wo hain: 'THIRD', 'FIRST', 'FOURTH', 'FIFTH', 'SECOND'. Kal kya title hoga?",
-    "hint": "Think about what happens automatically on websites every 24 hours.",
-    "answer": "SIXTH",
-    "explanation_hi": "Ye titles week ke dinon ko represent karte hain - FIRST = Monday, SECOND = Tuesday, etc., lekin order mixed hai. Sequence follow karte hue agla hoga SIXTH (Saturday)."
+    "question_en": "I have a neck without a head, and a body without legs. I am often used to hold something valuable. What am I?",
+    "question_hi": "Meri gardan hai par sir nahi, aur shareer hai par pair nahi. Mujhe aksar koi keemti cheez rakhne ke liye istemaal kiya jaata hai. Main kya hoon?",
+    "hint_en": "My value is often in what I contain, not what I am.",
+    "hint_hi": "Meri keemat aksar us cheez mein hoti hai jo mere andar hai, na ki usmein jo main hoon.",
+    "answer": "bottle",
+    "explanation_en": "This is a simple Wordplay puzzle using double definitions in a metaphorical sense. The words 'neck' and 'body' are used to describe parts of the object that are analogous to human anatomy, but the object itself is inanimate.",
+    "explanation_hi": "Yeh ek aasan wordplay puzzle hai. Yahan 'gardan' aur 'shareer' jaise shabdon ka istemaal bottle ke parts batane ke liye kiya gaya hai, jaise insani shareer ke hote hain, lekin bottle ek bejaan cheez hai."
   },
   {
     "id": "e2",
-    "question_en": "A login form shows this message: 'Your password is the sound a web browser makes when loading, followed by the HTTP status code for Not Found, then the number of bits in a byte.'",
-    "question_hi": "Login form pe message likha hai: 'Tumhara password vo sound hai jo browser load hote waqt karta hai, uske baad Not Found ka HTTP status code, fir ek byte me kitne bits hote hain vo number.'",
-    "hint": "Some of these terms have standard meanings in web technology.",
-    "answer": "CLICK4048",
-    "explanation_hi": "'Click' browser ki sound, 404 Not Found ka code, aur ek byte me 8 bits hote hain — sab jod ke password ban gaya: CLICK404-8."
+    "question_en": "What is the next number in this sequence: 1, 4, 9, 16, ?",
+    "question_hi": "Is sequence mein agla number kaun sa hai: 1, 4, 9, 16, ?",
+    "hint_en": "Think about the position of each number in the sequence.",
+    "hint_hi": "Sequence mein har number ki position ke baare mein socho.",
+    "answer": "25",
+    "explanation_en": "This is a foundational Pattern puzzle. The sequence consists of perfect squares: 1², 2², 3², 4². The next number is therefore 5², which is 25.",
+    "explanation_hi": "Yeh ek pattern puzzle hai. Sequence perfect squares se bani hai: 1², 2², 3², 4². Isliye, agla number 5² hoga, jo ki 25 hai."
   },
   {
     "id": "e3",
-    "question_en": "Someone left you this birthday message: '01001000 01100001 01110000 01110000 01111001 00100000 01000010 01101001 01110010 01110100 01101000 01100100 01100001 01111001'. But there's a twist - the message is wrong because one bit was flipped. Fix it and respond with the corrected greeting backwards.",
-    "question_hi": "Kisi ne tumhare liye ye birthday message chhoda hai: '01001000 ...' (binary). Par ek dikkat hai — ek bit galat hai. Usse sahi karo aur reverse karke greeting batao.",
-    "hint": "Convert from binary first, then look for the obvious error.",
-    "answer": "yadhtriB yppaH",
-    "explanation_hi": "Binary se decode karne par message 'Happy Birthdxy' aata hai — x galat hai, use 'a' se replace karo. Fir reverse karne par: yadhtriB yppaH."
+    "question_en": "If all Blips are Zorps, and some Zorps are Flarps, can you be certain that at least one Blip is a Flarp?",
+    "question_hi": "Agar saare Blips, Zorps hain, aur kuch Zorps, Flarps hain, toh kya aap yakeen se keh sakte hain ki kam se kam ek Blip, Flarp hai?",
+    "hint_en": "Just because two groups overlap with a third, does that mean they overlap with each other?",
+    "hint_hi": "Sirf isliye ki do group teesre ke saath overlap karte hain, kya iska matlab yeh hai ki woh aapas mein bhi overlap karte hain?",
+    "answer": "No",
+    "explanation_en": "This is a core Deduction puzzle. The set of all Blips is contained within the set of Zorps. The set of Flarps overlaps with the set of Zorps. However, it is possible for the Flarp-Zorp overlap to be entirely separate from the Blips.",
+    "explanation_hi": "Yeh ek deduction puzzle hai. Saare Blips ka set, Zorps ke set ke andar hai. Flarps ka set, Zorps ke set se overlap karta hai. Lekin, yeh ho sakta hai ki Flarp-Zorp ka overlap Blips se bilkul alag ho."
   },
   {
     "id": "e4",
-    "question_en": "Find the treasure by following this path: Start with 'www', add the top-level domain for India, then add '/treasure/', then add the first five letters of the alphabet, then add the file extension for web pages.",
-    "question_hi": "Treasure dhundo is path ko follow karke: 'www' se shuru karo, fir India ka top-level domain lagao, fir '/treasure/', fir ABCDE, fir webpage ka extension.",
-    "hint": "Think about website addresses and how they're structured.",
-    "answer": "www.in/treasure/abcde.html",
-    "explanation_hi": "Website ka structure banaya gaya hai: www + .in (India) + /treasure/ + abcde + .html = www.in/treasure/abcde.html."
+    "question_en": "A doctor gives you three pills and tells you to take one every half hour. How many minutes will pass from the time you take the first pill to the time you take the last pill?",
+    "question_hi": "Ek doctor aapko teen goliyan deta hai aur har aadhe ghante mein ek lene ko kehta hai. Pehli goli lene se lekar aakhiri goli lene tak kitne minute beet jayenge?",
+    "hint_en": "The clock starts when you take the first pill.",
+    "hint_hi": "Samay tab shuru hota hai jab aap pehli goli lete hain.",
+    "answer": "60 minutes",
+    "explanation_en": "The sequence of events is: take pill 1 (0 minutes), wait 30 minutes, take pill 2 (30 minutes), wait 30 minutes, take pill 3 (60 minutes). The total time elapsed is 60 minutes, not 90.",
+    "explanation_hi": "Ghatnaon ka sequence hai: pehli goli (0 minute par), 30 minute intezaar, doosri goli (30 minute par), 30 minute intezaar, teesri goli (60 minute par). Kul samay 60 minute beeta, 90 nahi."
   },
   {
     "id": "e5",
-    "question_en": "Your browser history shows: Facebook, Twitter, Instagram, LinkedIn, TikTok. But the real message is in what these platforms are primarily used for, reading only the first letter of each purpose.",
-    "question_hi": "Tumhare browser history me yeh websites hain: Facebook, Twitter, Instagram, LinkedIn, TikTok. Har platform ka main use socho aur unke purpose ke first letter se word banao.",
-    "hint": "What is each social media platform's main function? Find the first letter.",
-    "answer": "FRONT",
-    "explanation_hi": "Facebook = Friends, Twitter = Relationship/Random, Instagram = Images, LinkedIn = Networking, TikTok = Trends. First letters = F, R, I, N, T = FRONT."
+    "question_en": "I am a word of five letters. If you remove my first letter, I am a form of energy. If you remove my first two letters, I am needed to live. What word am I?",
+    "question_hi": "Main paanch aksharon ka ek shabd hoon. Agar mera pehla akshar hata do, toh main energy ka ek roop hoon. Agar mere pehle do akshar hata do, toh jeene ke liye meri zaroorat hai. Main kaun sa shabd hoon?",
+    "hint_en": "The answers to the sub-clues are heat and eat.",
+    "hint_hi": "Sub-clues ke jawab hain 'heat' aur 'eat'.",
+    "answer": "Wheat",
+    "explanation_en": "This Wordplay puzzle uses the deletion mechanic. A form of energy is 'heat'. What is needed to live is 'eat'. The puzzle requires finding a five-letter word that contains these smaller words in the correct positions.",
+    "explanation_hi": "Yeh wordplay puzzle deletion par adhaarit hai. Energy ka form hai 'heat'. Jeene ke liye zaroori hai 'eat'. Puzzle mein ek aisa paanch-akshar ka shabd dhoondhna hai jismein yeh chhote shabd sahi jagah par ho."
   },
   {
     "id": "e6",
-    "question_en": "A web designer gives you these CSS colors in order: #FF0000, #00FF00, #0000FF, #FFFF00, #FF00FF. The next color in the sequence represents the answer - decode it as letters.",
-    "question_hi": "Ek web designer ne tumhe ye CSS colors diye: #FF0000, #00FF00, #0000FF, #FFFF00, #FF00FF. Agla color kya hoga? Usse decode karo.",
-    "hint": "These are RGB color codes. Look for a pattern and convert the result.",
-    "answer": "CYAN",
-    "explanation_hi": "Ye sequence RGB primary aur secondary colors ka hai. Next hoga #00FFFF, jo CYAN represent karta hai."
+    "question_en": "What is the next letter in this sequence: A, C, F, J, ?",
+    "question_hi": "Is sequence mein agla letter kaun sa hai: A, C, F, J, ?",
+    "hint_en": "Count the letters you skip between each one.",
+    "hint_hi": "Har letter ke beech mein chhode gaye letters ko gino.",
+    "answer": "O",
+    "explanation_en": "This is an alphabetical Pattern puzzle. The gap between the letters increases by one each time: Skip 1 letter (B), then skip 2 (D, E), then skip 3 (G, H, I). The next step is to skip 4 letters (K, L, M, N), which leads to O.",
+    "explanation_hi": "Yeh ek alphabetical pattern puzzle hai. Letters ke beech ka gap har baar ek badh jaata hai: 1 letter chhodo (B), phir 2 chhodo (D, E), phir 3 chhodo (G, H, I). Agla step hai 4 letter chhodna (K, L, M, N), jisse O milta hai."
   },
   {
     "id": "e7",
-    "question_en": "Create an email address where: username is the HTML tag for emphasis (not bold), @ symbol, domain is the three-letter abbreviation for 'frequently asked questions', dot, and the top-level domain for commercial websites.",
-    "question_hi": "Ek email address banao jisme: username ho HTML tag for emphasis (bold nahi), fir @, fir domain ho 'frequently asked questions' ka 3-letter short form, fir dot, fir commercial websites ka TLD.",
-    "hint": "Think about HTML tags and common web abbreviations.",
-    "answer": "em@faq.com",
-    "explanation_hi": "HTML tag for emphasis = em, FAQ = faq, commercial TLD = .com. So final address: em@faq.com."
+    "question_en": "A man pushes his car to a hotel and tells the owner he is bankrupt. Why?",
+    "question_hi": "Ek aadmi apni car ko dhakka dekar ek hotel tak le jaata hai aur malik ko batata hai ki woh diwaliya ho gaya hai. Kyun?",
+    "hint_en": "The car is not a real automobile.",
+    "hint_hi": "Car ek asli gaadi nahi hai.",
+    "answer": "Playing Monopoly",
+    "explanation_en": "A Lateral puzzle that relies on re-contextualization. The solution requires shifting the context to a board game, where pushing a car token to a hotel and going bankrupt is a common event.",
+    "explanation_hi": "Yeh ek Lateral puzzle hai jisme context badalna padta hai. Iska hal board game ke context mein hai, jahan car token ko hotel tak le jaana aur diwaliya ho jaana ek aam baat hai."
   },
   {
     "id": "e8",
-    "question_en": "A server responds with codes: 200, 301, 404, 500. These represent success, redirect, not found, and server error. If the pattern continues, what's the next logical status code and what does it mean?",
-    "question_hi": "Server ye codes deta hai: 200, 301, 404, 500 (Success, Redirect, Not Found, Server Error). Agla code kya hoga aur uska kya matlab hoga?",
-    "hint": "Look up HTTP status codes and their numerical patterns.",
-    "answer": "503 Service Unavailable",
-    "explanation_hi": "Ye common status codes ka sequence hai. 503 ka matlab hota hai Service Unavailable — jo next logical common code hai."
+    "question_en": "If a red house is made of red bricks, and a blue house is made of blue bricks, what is a green house made of?",
+    "question_hi": "Agar ek laal ghar laal eenton se bana hai, aur ek neela ghar neeli eenton se bana hai, toh ek hara ghar (green house) kis cheez se bana hai?",
+    "hint_en": "Don't get caught in the linguistic pattern. What is a 'greenhouse' in the real world?",
+    "hint_hi": "Bhasha ke pattern mein mat phanso. Asli duniya mein 'greenhouse' kya hota hai?",
+    "answer": "Glass",
+    "explanation_en": "This Lateral puzzle uses a linguistic pattern to create a false assumption. The solution requires breaking this pattern and recalling the real-world meaning of the term 'greenhouse.'",
+    "explanation_hi": "Yeh Lateral puzzle ek bhashayi pattern ka istemal karke galat soch paida karta hai. Hal ke liye is pattern ko todkar 'greenhouse' ka asli matlab yaad karna hoga."
   },
   {
     "id": "e9",
-    "question_en": "Your download speeds in MB/s for five days were: 5, 10, 15, 20, 25. But the real puzzle is this sequence converted to binary, then counting the total number of 1s across all five numbers.",
-    "question_hi": "Tumhare download speeds 5 din ke liye the: 5, 10, 15, 20, 25 MB/s. In numbers ko binary me convert karo aur total 1s gino.",
-    "hint": "Convert each number to binary first, then count all the 1s.",
-    "answer": "13",
-    "explanation_hi": "5=101 (2 ones), 10=1010 (2), 15=1111 (4), 20=10100 (2), 25=11001 (3); Total = 2+2+4+2+3 = 13 ones. Actually 2+2+4+2+4 = 14, recheck karein — but answer 15 diya tha, fix needed if mismatch."
+    "question_en": "Forward I am heavy, but backward I am not. What am I?",
+    "question_hi": "Seedha padhne par main bhaari hoon, lekin ulta padhne par nahi. Main kya hoon?",
+    "hint_en": "The clue is about how the word is spelled.",
+    "hint_hi": "Hint iske baare mein hai ki shabd ko kaise spell kiya jaata hai.",
+    "answer": "Ton",
+    "explanation_en": "This Wordplay puzzle combines a definition with a palindrome clue. 'Ton' is a unit of heavy weight. Spelled backward, it is 'not.'",
+    "explanation_hi": "Yeh wordplay puzzle definition ko palindrome clue se jodta hai. 'Ton' wazan ki ek bhaari unit hai. Ise ulta spell karne par yeh 'not' ban jaata hai."
   },
   {
     "id": "e10",
-    "question_en": "A webpage has these elements in order: <header>, <nav>, <main>, <footer>. The secret message is formed by taking the 2nd letter of each tag name.",
-    "question_hi": "Ek webpage ke elements hain: <header>, <nav>, <main>, <footer>. Har tag ke name ka 2nd letter lo aur ek secret word banao.",
-    "hint": "Look at each HTML tag name and extract the specified letter.",
-    "answer": "EAAO",
-    "explanation_hi": "header → E, nav → A, main → A, footer → O; 2nd letters milakar ban gaya: EAAO."
+    "question_en": "Art is looking at Beth. Chloe is looking at Dan. Dan is looking at Art. Who is the only person NOT being looked at by another person in the room?",
+    "question_hi": "Art, Beth ko dekh raha hai. Chloe, Dan ko dekh rahi hai. Dan, Art ko dekh raha hai. Kamre mein aisa kaun hai jiski taraf koi aur nahi dekh raha hai?",
+    "hint_en": "Consider where each person's gaze is directed based on their actions.",
+    "hint_hi": "Is baat par gaur karo ki har vyakti ki nazar uske kaam ke aadhar par kahan hai.",
+    "answer": "Chloe",
+    "explanation_en": "A simple Deduction puzzle based on elimination. Art is looking at Beth. Dan is looking at Art. Chloe is looking at Dan. This means Art, Beth, and Dan are all being looked at by someone. Chloe is the only one not being looked at.",
+    "explanation_hi": "Yeh ek simple deduction puzzle hai. Art, Beth ko dekh raha hai. Dan, Art ko dekh raha hai. Chloe, Dan ko dekh rahi hai. Iska matlab Art, Beth aur Dan, teeno ki taraf koi na koi dekh raha hai. Sirf Chloe aisi hai jiski taraf koi nahi dekh raha."
   }
 ]
 
@@ -87,208 +107,208 @@
     
   "medium":[
   {
-    "id": "m11",
-    "question_en": "A database admin runs these SQL commands in sequence: SELECT, INSERT, UPDATE, DELETE. Each command's first letter's ASCII values are added and converted back to a character to get the first clue. Then do the same with the last letters. Combine both clues.",
-    "question_hi": "Ek database admin ne ye SQL commands sequence me chalayi: SELECT, INSERT, UPDATE, DELETE. Har command ke first letter ka ASCII value add karo aur fir uska character nikalo – yahi pehla clue hai. Fir same kaam last letters ke saath karo. Dono clues ko jodo.",
-    "hint_en": "Use ASCII values of first and last letters of each command.",
-    "hint_hi": "Har command ke pehle aur aakhri letters ka ASCII value lo.",
-    "answer": "SE",
-    "explanation_en": "First letters: S(83), I(73), U(85), D(68) → 83+73+85+68 = 309 → 309 % 26 = 23 → 23rd letter is 'W' (but too complex). Instead, take initials: S, I, U, D = S (main). Last letters: T, T, E, E → T, E = E. Final: SE.",
-    "explanation_hi": "Pehle letters: S, I, U, D ke ASCII add kiye to bahut bada number aata hai. Simple way: pehla clue S, doosra clue E se banta hai. Dono ko jodke mila 'SE'."
+    "id": "m1",
+    "question_en": "Feed me and I live. Give me a drink and I die. What am I?",
+    "question_hi": "Mujhe khana khilao to main jeeti hoon. Mujhe paani pilao to main mar jaati hoon. Main kya hoon?",
+    "hint_en": "My 'food' is wood or paper. My 'drink' is water.",
+    "hint_hi": "Mera 'khana' lakdi ya kaagaz hai. Mera 'drink' paani hai.",
+    "answer": "Fire",
+    "explanation_en": "This is a Lateral puzzle that uses metaphorical Wordplay. Fire consumes (eats) fuel to live, but is extinguished (dies) by water.",
+    "explanation_hi": "Yeh ek Lateral puzzle hai jisme 'khana' aur 'peena' shabd metaphor ki tarah use huye hain. Aag zinda rehne ke liye indhan (fuel) 'khaati' hai, lekin paani se bujh jaati hai (mar jaati hai)."
   },
   {
-    "id": "m12",
-    "question_en": "A website sets cookies with values: user=john, session=abc123, theme=dark, lang=en. Take the last character of each value, convert using A1Z26 cipher (A=1, B=2...), and decode the hidden word.",
-    "question_hi": "Ek website kuch cookies set karti hai: user=john, session=abc123, theme=dark, lang=en. Har value ka last character lo, usse A1Z26 cipher (A=1, B=2...) me convert karo, fir chhupa hua word decode karo.",
-    "hint_en": "Last letter of 'john', 'abc123', 'dark', and 'en'. Then use A1Z26 to get the word.",
-    "hint_hi": "Har cookie value ka aakhri letter lo aur A1Z26 cipher lagao.",
-    "answer": "NERD",
-    "explanation_en": "Last letters: 'john' → n (14), 'abc123' → 3 (invalid), 'dark' → k (11), 'en' → n (14). Only use alphabet ones: n(14), k(11), n(14), gives clue. Missing proper number, revise to make answer 'NERD'.",
-    "explanation_hi": "Aakhri letters: n, 3, k, n. 3 valid nahi hai. To alphabets ko lo: n = 14, k = 11, n = 14 → clue milta hai: NERD."
+    "id": "m2",
+    "question_en": "A man is found unconscious in a room with 52 bicycles scattered around him. There is no one else. What happened?",
+    "question_hi": "Ek aadmi ek kamre mein behosh milta hai aur uske aas-paas 52 cycle bikhri hui hain. Wahan aur koi nahi hai. Kya hua tha?",
+    "hint_en": "What do bicycles have to do with the number 52? Think about a different kind of 'deck.'",
+    "hint_hi": "Cycle ka 52 number se kya lena-dena hai? Ek alag tarah ke 'deck' ke baare mein socho.",
+    "answer": "He cheated",
+    "explanation_en": "This is a Wordplay puzzle. The number 52 is a strong clue for a standard deck of playing cards. 'Bicycle' is a popular brand of playing cards. The scenario suggests the man was caught cheating at cards.",
+    "explanation_hi": "Yeh ek wordplay puzzle hai. 52 number se taash ki gaddi (deck of cards) ka ishara milta hai. 'Bicycle' taash ka ek popular brand hai. Isse lagta hai ki aadmi taash khelte hue cheating karte pakda gaya."
   },
   {
-    "id": "m13",
-    "question_en": "Function names: getElementById, addEventListener, createElement, appendChild. Take every 3rd letter from each name and combine them to find a hidden word.",
-    "question_hi": "Function names diye gaye hain: getElementById, addEventListener, createElement, appendChild. Har function name se har 3rd letter uthao aur unhe jodkar ek chhupa hua word banao.",
-    "hint_en": "Count every 3rd character in each function.",
-    "hint_hi": "Har function ke har teesre letter ko uthao.",
-    "answer": "TTNEND",
-    "explanation_en": "From 'getElementById': t, m, t. From 'addEventListener': d, v, t. From 'createElement': e, a, e. From 'appendChild': p, e, n. Final result is a jumbled set: try rearranging to get 'TTNEND'.",
-    "explanation_hi": "'getElementById' se: t, m, t; 'addEventListener' se: d, v, t; sabhi functions ke teesre letters se mila kar 'TTNEND' banta hai."
+    "id": "m3",
+    "question_en": "What is the next letter in this sequence: O, T, T, F, F, S, S, ?",
+    "question_hi": "Is sequence mein agla letter kya hai: O, T, T, F, F, S, S, ?",
+    "hint_en": "The sequence is not mathematical. It is the beginning of a well-known list.",
+    "hint_hi": "Yeh sequence mathematical nahi hai. Yeh ek jaani-maani list ki shuruaat hai.",
+    "answer": "E",
+    "explanation_en": "This is a conceptual Pattern puzzle. The letters are the first letters of the numbers one, two, three, four, five, six, seven... The next letter is therefore 'E' for eight.",
+    "explanation_hi": "Yeh ek conceptual pattern puzzle hai. Yeh letters गिनती (numbers) ke pehle akshar hain: One, Two, Three, Four, Five, Six, Seven... Isliye agla letter 'E' hoga Eight ke liye."
   },
   {
-    "id": "m14",
-    "question_en": "You see these IP addresses: 192.168.1.1, 192.168.1.2, 192.168.1.3. Add all digits in each IP to get: 24, 25, 26. Convert these numbers using A1Z26 to reveal a message.",
-    "question_hi": "Tumhe ye IP addresses dikh rahe hain: 192.168.1.1, 192.168.1.2, 192.168.1.3. Har IP ke digits add karo: 24, 25, 26 milta hai. Inhe A1Z26 cipher me convert karo aur message pao.",
-    "hint_en": "24 = X, 25 = Y, 26 = Z",
-    "hint_hi": "A1Z26 cipher: 24 = X, 25 = Y, 26 = Z",
-    "answer": "XYZ",
-    "explanation_en": "Sum of digits gives 24, 25, 26 → A1Z26 → X, Y, Z.",
-    "explanation_hi": "Har IP ke digits ka total: 24, 25, 26 → A1Z26 me convert karne pe X, Y, Z milta hai."
+    "id": "m4",
+    "question_en": "You have three boxes. One is labeled 'Apples,' one 'Oranges,' and one 'Apples & Oranges.' You know that every box is labeled incorrectly. You are allowed to pull out and look at only one fruit from one box. Which box do you choose to correctly label all of them?",
+    "question_hi": "Aapke paas teen box hain. Ek par 'Apples', ek par 'Oranges', aur ek par 'Apples & Oranges' likha hai. Aap jaante hain ki har box par galat label laga hai. Aapko sirf ek box se ek phal nikal kar dekhne ki ijazat hai. Aap kaun sa box chunenge taaki sabhi par sahi label laga sakein?",
+    "hint_en": "The box you choose gives you the most information because you know what it's not.",
+    "hint_hi": "Jo box aap chunenge, woh aapko sabse zyada jaankari dega kyunki aap jaante hain ki usmein kya nahi hai.",
+    "answer": "Apples & Oranges",
+    "explanation_en": "The key is knowing every box is mislabeled. Choose the 'Apples & Oranges' box. If you pull out an apple, you know that is the 'Apples' box. This means the box labeled 'Oranges' must be 'Apples & Oranges'. By deduction, the last box labeled 'Apples' must be the 'Oranges' box.",
+    "explanation_hi": "Sabse zaroori baat yeh hai ki har box par galat label hai. 'Apples & Oranges' wala box chuno. Agar usmein se apple nikla, toh woh 'Apples' ka box hai. Iska matlab 'Oranges' label wala box 'Apples & Oranges' ka hoga. Aakhir mein, 'Apples' label wala box 'Oranges' ka hoga."
   },
   {
-    "id": "m15",
-    "question_en": "A webpage shows HTML entities: &lt; &gt; &amp; &quot; &apos;. Decode them to characters and interpret them as a programming expression.",
-    "question_hi": "Ek webpage pe HTML entities dikh rahi hain: &lt; &gt; &amp; &quot; &apos;. Inhe actual characters me decode karo aur programming expression ke roop me samjho.",
-    "hint_en": "Decode HTML entities: < > & \" '",
-    "hint_hi": "HTML entities ko decode karo: < > & \" '",
-    "answer": "<>&\"'",
-    "explanation_en": "Decoded characters are: < > & \" ' — might represent logic or syntax in programming.",
-    "explanation_hi": "Decode karne ke baad characters milte hain: < > & \" ' — ye kisi programming logic ka hissa ho sakte hain."
+    "id": "m5",
+    "question_en": "Rearrange the letters of 'new door' to make one word.",
+    "question_hi": "'new door' ke aksharon ko rearrange karke 'one word' banao.",
+    "hint_en": "The solution is very literal. Read the puzzle instruction again carefully.",
+    "hint_hi": "Jawaab bahut hi seedha hai. Puzzle ki instruction ko dhyaan se dobara padho.",
+    "answer": "One word",
+    "explanation_en": "This is a Wordplay puzzle that is also Lateral. The puzzle is asking you to literally create the phrase 'one word.'",
+    "explanation_hi": "Yeh ek Wordplay aur Lateral puzzle hai. Puzzle aapse 'N-E-W-D-O-O-R' ko rearrange karne ke liye nahi, balki seedhe-seedhe 'one word' likhne ke liye keh raha hai."
   },
   {
-    "id": "m16",
-    "question_en": "Your browser cache contains files: index.html, style.css, script.js, image.png, data.json. Take the first letter of each file extension, convert to A1Z26 number, then multiply all.",
-    "question_hi": "Browser cache me kuch files hain: index.html, style.css, script.js, image.png, data.json. Har file extension ka pehla letter lo, A1Z26 number me convert karo, fir sabko multiply karo.",
-    "hint_en": "Extensions: h, c, j, p, j → Convert to numbers: h=8, c=3, j=10, p=16",
-    "hint_hi": "Extension letters ko numbers me convert karo aur multiply karo.",
-    "answer": "38400",
-    "explanation_en": "h=8, c=3, j=10, p=16, j=10 → 8×3×10×16×10 = 38,400",
-    "explanation_hi": "h=8, c=3, j=10, p=16, j=10 → 8×3×10×16×10 = 38,400"
+    "id": "m6",
+    "question_en": "A is the brother of B. B is the brother of C. But C is not the brother of A. How is this possible?",
+    "question_hi": "A, B ka bhai hai. B, C ka bhai hai. Lekin C, A ka bhai nahi hai. Yeh kaise ho sakta hai?",
+    "hint_en": "C is A's sister.",
+    "hint_hi": "C, A ki behen hai.",
+    "answer": "C is female",
+    "explanation_en": "A Lateral puzzle that challenges a gender-based assumption. The word 'brother' implies the subject is male, but it does not define the gender of the sibling. C is their sister.",
+    "explanation_hi": "Yeh ek Lateral puzzle hai jo gender assumption ko challenge karta hai. 'Bhai' shabd bolne wale ke male hone ka batata hai, par jiske baare mein bola jaa raha hai uska gender nahi. C unki behen hai."
   },
   {
-    "id": "m17",
-    "question_en": "From common port numbers: 21, 22, 23, 25, 53, 80, 110, 443 — pick only prime ones and add them. Convert the sum to ASCII.",
-    "question_hi": "In common port numbers me se: 21, 22, 23, 25, 53, 80, 110, 443 — sirf prime numbers lo aur unka total nikalo. Us sum ko ASCII me convert karo.",
-    "hint_en": "Prime ports: 23, 53. 23+53=76 → ASCII of 76?",
-    "hint_hi": "Prime numbers: 23 aur 53. 76 ka ASCII character kya hai?",
-    "answer": "L",
-    "explanation_en": "23 + 53 = 76 → ASCII 76 = 'L'",
-    "explanation_hi": "23 + 53 = 76 → ASCII character 76 = 'L'"
+    "id": "m7",
+    "question_en": "What is the next letter in this sequence: J, F, M, A, M, J, J, ?",
+    "question_hi": "Is sequence mein agla letter kya hai: J, F, M, A, M, J, J, ?",
+    "hint_en": "Think about the calendar.",
+    "hint_hi": "Calendar ke baare mein socho.",
+    "answer": "A",
+    "explanation_en": "This is a Pattern puzzle based on a real-world sequence. The letters are the first letters of the months of the year: January, February, March, April, May, June, July... The next month is August, so the letter is A.",
+    "explanation_hi": "Yeh ek pattern puzzle hai jo asli duniya ki sequence par adhaarit hai. Yeh saal ke mahino ke pehle akshar hain: January, February, March, April, May, June, July... Agla mahina August hai, isliye letter A hoga."
   },
   {
-    "id": "m18",
-    "question_en": "A user agent string: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 — take all version numbers, add integers, then convert to hex.",
-    "question_hi": "User agent string diya gaya hai: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 — sabhi version numbers lo, integers add karo, fir hexadecimal me convert karo.",
-    "hint_en": "Use: 5 + 10 + 64 + 537 = ? Then convert to hex.",
-    "hint_hi": "5 + 10 + 64 + 537 = ? Fir uska hexadecimal nikalo.",
-    "answer": "268",
-    "explanation_en": "5+10+64+537 = 616 → hex = 0x268",
-    "explanation_hi": "5+10+64+537 = 616 → hexadecimal me = 268"
+    "id": "m8",
+    "question_en": "I am a word that begins with T, ends with T, and is filled with T. What am I?",
+    "question_hi": "Main ek aisa shabd hu jo T se shuru hota hai, T par khatam hota hai, aur T se bhara hua hai. Main kya hoon?",
+    "hint_en": "Think about what you might fill the object with.",
+    "hint_hi": "Socho ki tum us cheez ko kis cheez se bhar sakte ho.",
+    "answer": "Teapot",
+    "explanation_en": "A Wordplay puzzle that plays on the dual meaning of letters and words. It begins with the letter 'T' and ends with the letter 'T'. It is filled with 'tea' (which sounds like the letter T).",
+    "explanation_hi": "Yeh ek wordplay puzzle hai jo aksharon aur shabdon ke dohre matlab par khelta hai. Yeh 'T' letter se shuru hota hai aur 'T' par khatam hota hai. Aur yeh 'tea' (jo T jaisa sound karta hai) se bhara hota hai."
   },
   {
-    "id": "m19",
-    "question_en": "CSS selectors: .header, #main, .sidebar, .footer, #content. Convert . as 0 and # as 1. Read the binary and convert to decimal.",
-    "question_hi": "CSS selectors diye gaye hain: .header, #main, .sidebar, .footer, #content. '.' ko 0 aur '#' ko 1 maano. Is binary ko decimal me convert karo.",
-    "hint_en": ". = 0, # = 1 → Pattern: 0,1,0,0,1 → Binary 01001",
-    "hint_hi": "Binary form: 01001 → Decimal value nikalo",
-    "answer": "9",
-    "explanation_en": "01001 in binary = 9",
-    "explanation_hi": "01001 binary ka decimal hai 9"
+    "id": "m9",
+    "question_en": "A ruler has no children and is not married. His brother and sister are also childless. He has a legitimate heir of his own bloodline. How?",
+    "question_hi": "Ek shasak ke koi bachche nahi hain aur na hi woh shaadi-shuda hai. Uske bhai aur behen ke bhi koi bachche nahi hain. Phir bhi uske apne khoon ka ek jayaz waris hai. Kaise?",
+    "hint_en": "The ruler is part of a larger kingdom.",
+    "hint_hi": "Woh shasak ek bade samrajya ka hissa hai.",
+    "answer": "He is the heir",
+    "explanation_en": "The ruler is a prince who will inherit the throne from the current monarch (his parent).",
+    "explanation_hi": "Woh shasak ek rajkumar hai jise maujooda raja ya rani (uske mata-pita) se rajgaddi virasat mein milegi."
   },
   {
-    "id": "m20",
-    "question_en": "JSON keys: user.profile.name.first, user.profile.name.last, user.profile.age, user.settings.theme. Count total dots, then multiply by number of unique words.",
-    "question_hi": "JSON keys hain: user.profile.name.first, user.profile.name.last, user.profile.age, user.settings.theme. Total dots gin lo, fir unique words ke count se multiply karo.",
-    "hint_en": "Total dots = 12, Unique words = 5 → Multiply them",
-    "hint_hi": "Dots = 12, Unique words = 5 → 12×5 = ?",
-    "answer": "60",
-    "explanation_en": "There are 12 dots and 5 unique words (user, profile, name, settings, theme) → 12×5 = 60",
-    "explanation_hi": "Total 12 dots hain aur 5 unique words → 12×5 = 60"
+    "id": "m10",
+    "question_en": "A man says, 'I have two children. One of them is a boy born on a Tuesday. What is the probability I have two boys?' The answer is not 1/2. What is it?",
+    "question_hi": "Ek aadmi kehta hai, 'Mere do bachche hain. Unmein se ek ladka hai jo mangalwar ko paida hua tha. Is baat ki kya probability hai ki mere dono bachche ladke hain?' Jawaab 1/2 nahi hai. Toh kya hai?",
+    "hint_en": "This is a conditional probability problem. The specific information about the day matters.",
+    "hint_hi": "Yeh ek conditional probability ki samasya hai. Din ke baare mein di gayi khaas jaankari mayne rakhti hai.",
+    "answer": "13/27",
+    "explanation_en": "This is a tricky logic puzzle (Boy or Girl paradox). The extra information 'born on a Tuesday' changes the sample space of possibilities, making the 'two boys' scenario different from the simple 1/3 probability (when the day isn't mentioned).",
+    "explanation_hi": "Yeh ek tricky logic puzzle hai (Boy or Girl paradox). 'Mangalwar ko paida hua' wali extra jaankari possibilities ke sample space ko badal deti hai, jisse 'do ladke' hone ki probability 1/3 (jab din na bataya gaya ho) se alag ho jaati hai."
   }
 ]
 ,
 
   "hard":[
   {
-    "id": "m21",
-    "question_en": "A server uses this encryption: Take each letter’s alphabet position, multiply by ASCII, then mod 26. Decrypt 'NKBZQ'.",
-    "question_hi": "Ek server aisi encryption use karta hai: letter ka position × ASCII value, fir mod 26 lo. 'NKBZQ' ko decrypt karo.",
-    "hint_en": "Reverse the process using modular inverse.",
-    "hint_hi": "Process ko reverse karo using modular inverse.",
-    "answer": "WORLD",
-    "explanation_en": "By reversing the encryption on each letter using modular inverse, you get 'WORLD'.",
-    "explanation_hi": "Har letter pe modular inverse use karke reverse karo, answer milega 'WORLD'."
+    "id": "h1",
+    "question_en": "The following letters share a common property: A, E, F, H, I, K, L, M, N, T, V, W, X, Y, Z. Based on this property, does the letter 'S' belong?",
+    "question_hi": "In letters mein ek common property hai: A, E, F, H, I, K, L, M, N, T, V, W, X, Y, Z. Is property ke aadhar par, kya 'S' letter is group ka hissa hai?",
+    "hint_en": "How are the letters drawn? Ignore curves.",
+    "hint_hi": "Letters ko kaise banaya jaata hai? Ghumavdaar lines (curves) ko ignore karo.",
+    "answer": "No",
+    "explanation_en": "The property is that all letters in the group are formed using only straight lines. 'S' is formed with a curve, so it does not belong.",
+    "explanation_hi": "Property yeh hai ki group ke sabhi letters sirf seedhi lines se bane hain. 'S' ek curve se banta hai, isliye woh is group ka hissa nahi hai."
   },
   {
-    "id": "m22",
-    "question_en": "Blocked SQL injections: \"' OR '1'='1\", \"'; DROP TABLE users; --\", \"' UNION SELECT * FROM passwords --\". Use their character counts as (x,y,z) and decode.",
-    "question_hi": "Blocked SQL injections: \"' OR '1'='1\", \"'; DROP TABLE users; --\", \"' UNION SELECT * FROM passwords --\". Inke character counts ko (x,y,z) lo aur decode karo.",
-    "hint_en": "Count characters, use A1Z26 in 3D mapping.",
-    "hint_hi": "Characters count karo aur A1Z26 se 3D map banao.",
-    "answer": "DOG",
-    "explanation_en": "Their lengths: 13, 27, 15 = D, O, G in A1Z26 format.",
-    "explanation_hi": "Unki length: 13, 27, 15 se A1Z26 apply kar ke milta hai 'DOG'."
+    "id": "h2",
+    "question_en": "The man who made it doesn't want it. The man who bought it doesn't need it. The man who needs it doesn't know it. What is it?",
+    "question_hi": "Jis aadmi ne ise banaya, woh ise nahi chahta. Jis aadmi ne ise khareeda, use iski zaroorat nahi. Jis aadmi ko iski zaroorat hai, use yeh baat pata nahi. Yeh kya hai?",
+    "hint_en": "Think about the lifecycle of this object from creation to use.",
+    "hint_hi": "Is cheez ke banne se lekar istemaal hone tak ke lifecycle ke baare mein socho.",
+    "answer": "A coffin",
+    "explanation_en": "The maker (carpenter) doesn't want to use it. The buyer (a family member) doesn't need it for themselves. The user (the deceased) is unaware they need it.",
+    "explanation_hi": "Banane wala (badhai) ise istemaal nahi karna chahta. Khareedne wala (parivaar ka sadasya) ise apne liye nahi khareedta. Aur istemaal karne wale (mrit vyakti) ko pata nahi ki use iski zaroorat hai."
   },
   {
-    "id": "m23",
-    "question_en": "API limits: GET=60, POST=30, PUT=20, DELETE=10. XOR all values in binary. What common service uses the resulting port?",
-    "question_hi": "API limits: GET=60, POST=30, PUT=20, DELETE=10. In sabka binary XOR karo. Jo port mile uska common service kya hai?",
-    "hint_en": "XOR binary values, then convert back to decimal.",
-    "hint_hi": "Binary values ka XOR karo, phir decimal me convert karo.",
-    "answer": "SSH",
-    "explanation_en": "XOR: 60⊕30⊕20⊕10 = 64 → Port 22 → SSH service.",
-    "explanation_hi": "XOR karke 64 milta hai jo Port 22 hota hai → SSH service."
+    "id": "h3",
+    "question_en": "You are in a hallway with a closed door. In the hallway are three light switches. One of these switches controls a single light bulb inside the room. You can flip the switches as much as you want, but you may only enter the room once. How can you determine with certainty which switch controls the light?",
+    "question_hi": "Aap ek band darwaze ke bahar gallery mein hain. Wahan teen light switch hain. Inmein se ek switch kamre ke andar ek bulb ko control karta hai. Aap switch ko jitni baar chahe on-off kar sakte hain, lekin kamre mein sirf ek baar jaa sakte hain. Aap kaise pata lagayenge ki kaun sa switch light ka hai?",
+    "hint_en": "Light bulbs produce more than just light.",
+    "hint_hi": "Light bulb sirf roshni ke alawa aur bhi kuch paida karte hain.",
+    "answer": "Use heat",
+    "explanation_en": "1) Flip switch #1 on for a few minutes. 2) Flip switch #1 off and flip switch #2 on. 3) Enter the room. If the light is on, it's switch #2. If the light is off but the bulb is warm, it's switch #1. If the light is off and cold, it's switch #3.",
+    "explanation_hi": "1) Switch #1 ko kuch minute ke liye on rakho. 2) Switch #1 ko off karke Switch #2 ko on kar do. 3) Kamre mein jao. Agar light jal rahi hai, toh Switch #2 hai. Agar light band hai par bulb garam hai, toh Switch #1 hai. Agar light band hai aur bulb thanda hai, toh Switch #3 hai."
   },
   {
-    "id": "m24",
-    "question_en": "Hash ends: ...abc123, ...def456, ...ghi789. Use Caesar cipher (+3) on letters, Fibonacci on numbers. What's next ending?",
-    "question_hi": "Hash ke end hain: ...abc123, ...def456, ...ghi789. Caesar cipher (+3) letters pe aur numbers me Fibonacci lagao. Next kya hoga?",
-    "hint_en": "Apply +3 Caesar shift and Fibonacci numbers.",
-    "hint_hi": "+3 Caesar shift letters pe aur Fibonacci series numbers me lagao.",
-    "answer": "mnq358",
-    "explanation_en": "j+3=m, k+3=n, l+3=q; Fibonacci after 123,456,789 is 358.",
-    "explanation_hi": "Letters jkl ko +3 se milta hai mnq; numbers me Fibonacci 123→456→789 ke baad 358."
+    "id": "h4",
+    "question_en": "A logician is captured. She is placed before two doors. One leads to freedom, the other to death. By each door is a guard. One guard always lies, the other always tells the truth. She may ask one guard one question to find the door to freedom. What question does she ask?",
+    "question_hi": "Ek tarkshastri (logician) ko pakad liya jaata hai. Use do darwazon ke saamne rakha jaata hai. Ek azaadi ki taraf jaata hai, doosra maut ki taraf. Har darwaze par ek guard hai. Ek hamesha jhooth bolta hai, doosra hamesha sach. Use ek guard se sirf ek sawaal poochne ki ijazat hai. Woh kya sawaal poochegi?",
+    "hint_en": "You need a question where both a liar and a truth-teller give you the same, useful answer.",
+    "hint_hi": "Aapko ek aisa sawaal chahiye jiska jawab jhootha aur sachcha, dono ek hi jaisa de.",
+    "answer": "Which door would the other guard say leads to freedom?",
+    "explanation_en": "She asks one guard, 'Which door would the other guard say leads to freedom?' and then takes the opposite door. The truth-teller would honestly report the liar would point to the death door. The liar would lie about what the truth-teller would say, and also point to the death door.",
+    "explanation_hi": "Woh ek guard se poochegi, 'Doosra guard azaadi ka kaun sa darwaza batayega?' aur phir uske ulte darwaze se chali jayegi. Sachcha guard batayega ki jhootha maut ka darwaza dikhayega. Jhootha guard bhi jhooth bolkar maut ka hi darwaza dikhayega."
   },
   {
-    "id": "m25",
-    "question_en": "Nodes A-B-C-D-E-F-G-H in DFS from A, assign primes: 2,3,... Multiply primes at vowel nodes.",
-    "question_hi": "Nodes A-B-C-D-E-F-G-H ko DFS me A se traverse karo. Har node ko prime number do. Vowel nodes ke primes ka product nikalo.",
-    "hint_en": "Vowel nodes are A and E.",
-    "hint_hi": "Vowel nodes: A aur E hain.",
-    "answer": "22",
-    "explanation_en": "A=2, E=11 → 2×11=22",
-    "explanation_hi": "DFS me A=2, E=11 → 2×11=22 hota hai."
+    "id": "h5",
+    "question_en": "I can be a sound you make, a large body of water, and a narrow passage between lands. What one word am I?",
+    "question_hi": "Main ek awaaz ho sakta hoon jo tum nikalte ho, paani ka ek bada nikay (body of water) ho sakta hoon, aur zameen ke beech ek patla raasta ho sakta hoon. Main kaun sa ek shabd hoon?",
+    "hint_en": "One of the definitions refers to a geographical feature.",
+    "hint_hi": "Ek definition ek geographical feature se judi hai.",
+    "answer": "Sound",
+    "explanation_en": "A very difficult Wordplay puzzle using a triple definition. 1) A sound (noise). 2) A sound (like Puget Sound, a large sea inlet). 3) A sound (a strait or channel).",
+    "explanation_hi": "Yeh ek mushkil wordplay puzzle hai jiske teen matlab hain. 1) Sound (awaaz). 2) Sound (samudra ka ek hissa, jaise Puget Sound). 3) Sound (do zameeno ke beech paani ka patla raasta ya channel)."
   },
   {
-    "id": "m26",
-    "question_en": "Timestamps: 08:15:42, 09:23:17, 10:31:56, 11:40:21. Digit sums: 20, 22, 21, 14. Convert to 5×5 grid letters.",
-    "question_hi": "Timestamps: 08:15:42, 09:23:17, 10:31:56, 11:40:21. Digit sums: 20, 22, 21, 14. Inhe 5×5 grid ke letters me convert karo.",
-    "hint_en": "Map numbers to grid positions (A=1,1).",
-    "hint_hi": "Numbers ko grid me map karo jaise A=1,1.",
-    "answer": "TVUN",
-    "explanation_en": "20=T, 22=V, 21=U, 14=N on a 5×5 grid.",
-    "explanation_hi": "Grid pe 20=T, 22=V, 21=U, 14=N milta hai."
+    "id": "h6",
+    "question_en": "If 1=3, 2=3, 3=5, 4=4, 5=4, then what does 6=?",
+    "question_hi": "Agar 1=3, 2=3, 3=5, 4=4, 5=4, toh 6=? kya hoga?",
+    "hint_en": "The pattern is not mathematical. It's about the words themselves.",
+    "hint_hi": "Yeh pattern mathematical nahi hai. Yeh shabdon ke baare mein hai.",
+    "answer": "3",
+    "explanation_en": "The number on the right is the number of letters in the English spelling of the number on the left. One (3), Two (3), Three (5), Four (4), Five (4). Therefore, Six = 3.",
+    "explanation_hi": "Right side ka number left side ke number ki English spelling mein kitne letters hain, woh hai. One (3), Two (3), Three (5), Four (4), Five (4). Isliye, Six = 3."
   },
   {
-    "id": "m27",
-    "question_en": "Function hex: 0x12345678, 0xabcdefab, etc. Convert to decimal, sum, find % of max 32-bit int.",
-    "question_hi": "Function hex: 0x12345678, 0xabcdefab, etc. Decimal me convert karo, sum karo, aur max 32-bit int ka percentage nikalo.",
-    "hint_en": "Max 32-bit unsigned = 4294967295",
-    "hint_hi": "Max 32-bit unsigned hota hai 4294967295",
-    "answer": "83%",
-    "explanation_en": "Total sum ≈ 3.56 billion → (3560000000 / 4294967295) ≈ 83%",
-    "explanation_hi": "Sum 3.56 billion ke aaspaas hota hai, jo 83% ke barabar hai."
+    "id": "h7",
+    "question_en": "You see a boat filled with people, yet on the whole boat, there isn’t a single person. How?",
+    "question_hi": "Aap ek naav dekhte hain jo logon se bhari hui hai, phir bhi poori naav par ek bhi 'single' vyakti nahi hai. Kaise?",
+    "hint_en": "The solution hinges on the word 'single.'",
+    "hint_hi": "Iska hal 'single' shabd par tika hai.",
+    "answer": "All married",
+    "explanation_en": "This is a Lateral puzzle that relies on linguistic ambiguity. The puzzle uses the other meaning of 'single,' which is 'unmarried.' All the people on the boat are married.",
+    "explanation_hi": "Yeh ek Lateral puzzle hai jo bhasha ki anishchitta par nirbhar karta hai. Yahan 'single' shabd ka doosra matlab 'unmarried' (shaadi-shuda nahi) istemaal hua hai. Naav par sabhi log shaadi-shuda hain."
   },
   {
-    "id": "m28",
-    "question_en": "DNS chain latency: 1ms → 5ms → 12ms → 8ms → 3ms. Total processing time for OSI layer 4?",
-    "question_hi": "DNS chain latency: 1ms → 5ms → 12ms → 8ms → 3ms. OSI model me Layer 4 ka total processing time kya hoga?",
-    "hint_en": "Each latency ÷ 4 (layer number).",
-    "hint_hi": "Har latency ko layer number 4 se divide karo.",
-    "answer": "7.25ms",
-    "explanation_en": "Sum: (1+5+12+8+3)=29; Layer 4 = 29/4 = 7.25ms",
-    "explanation_hi": "Total latency 29ms hai, Layer 4 ka time = 29/4 = 7.25ms"
+    "id": "h8",
+    "question_en": "I am the beginning of eternity, the end of time and space, the beginning of every end, and the end of every place. What am I?",
+    "question_hi": "Main 'eternity' ki shuruaat, 'time' aur 'space' ka ant, har 'end' ka aarambh, aur har 'place' ka ant hoon. Main kya hoon?",
+    "hint_en": "Don't think about the concepts. Look at the words in the clue itself.",
+    "hint_hi": "Concepts ke baare mein mat socho. Clue mein diye gaye shabdon ko dekho.",
+    "answer": "Letter E",
+    "explanation_en": "The letter 'e' is at the beginning of 'eternity', the end of 'time' and 'space', the beginning of 'every end', and the end of 'every place'.",
+    "explanation_hi": "Letter 'e' 'eternity' ke shuru mein, 'time' aur 'space' ke ant mein, 'every end' ke shuru mein, aur 'every place' ke ant mein aata hai."
   },
   {
-    "id": "m29",
-    "question_en": "Requests: 100 → S1(w3), S2(w5), S3(w2). ResponseTime = 100ms × (1 + count/weight). Which has max processing time?",
-    "question_hi": "100 requests: Server1(w3), Server2(w5), Server3(w2). ResponseTime = 100ms × (1 + count/weight). Kaun sa server sabse zyada processing time lega?",
-    "hint_en": "Distribute requests per weight. Use formula.",
-    "hint_hi": "Requests ko weight ke hisaab se baanto. Formula lagao.",
-    "answer": "Server1",
-    "explanation_en": "S1 gets 30 requests → 100×(1+30/3)=1000ms per request",
-    "explanation_hi": "S1 ko 30 requests milte hain → ResponseTime = 1000ms per request, sabse zyada."
+    "id": "h9",
+    "question_en": "Three perfectly logical friends—Red, Green, and Blue—are blindfolded. The host places a hat on each of their heads, announcing, 'At least one of you is wearing a red hat.' He removes the blindfolds. Red looks at Green and Blue and says, 'I do not know what color my hat is.' Green hears this and says, 'I also do not know what color my hat is.' Blue, who is blind, hears both statements and says, 'I now know what color my hat is.' What color is Blue's hat?",
+    "question_hi": "Teen logical dost—Red, Green, aur Blue—ki aankhon par patti bandhi hai. Host unke sir par hat rakhta hai aur kehta hai, 'Tum mein se kam se kam ek ne laal hat pehni hai.' Woh pattiyaan hata deta hai. Red, Green aur Blue ko dekhkar kehta hai, 'Mujhe nahi pata meri hat ka rang kya hai.' Green yeh sunkar kehta hai, 'Mujhe bhi nahi pata meri hat ka rang kya hai.' Blue, jo andha hai, dono ki baat sunkar kehta hai, 'Ab mujhe pata hai meri hat ka rang kya hai.' Blue ki hat ka rang kya hai?",
+    "hint_en": "Each person's statement eliminates possibilities for the others. Think about what Red must have seen to be uncertain.",
+    "hint_hi": "Har vyakti ka statement doosron ke liye possibilities khatam kar deta hai. Socho ki Red ne aisa kya dekha hoga ki woh uncertain tha.",
+    "answer": "Red",
+    "explanation_en": "Red's uncertainty means he doesn't see two blue hats. Green hears this. If Green saw a blue hat on Blue, he'd know his own was red. Since Green is also uncertain, he must see a red hat on Blue. Blue hears all this and deduces his hat must be red.",
+    "explanation_hi": "Red isliye uncertain hai kyunki usne do neeli hats nahi dekhi. Green ne yeh suna. Agar Green, Blue ke sir par neeli hat dekhta, toh woh jaan jaata ki uski khud ki laal hai. Kyunki Green bhi uncertain hai, iska matlab usne Blue ke sir par laal hat dekhi hai. Blue yeh sab sunta hai aur samajh jaata hai ki uski hat laal hi honi chahiye."
   },
   {
-    "id": "m30",
-    "question_en": "Qubit state: |0⟩|+⟩|-⟩|1⟩. What’s the chance of measuring 0101 in binary?",
-    "question_hi": "Qubit state: |0⟩|+⟩|-⟩|1⟩. 0101 binary measure hone ka chance kitna hai?",
-    "hint_en": "|+⟩ and |-⟩ give 50% chance each.",
-    "hint_hi": "|+⟩ aur |-⟩ dono 50-50 chance dete hain.",
-    "answer": "25",
-    "explanation_en": "Middle two qubits have 50% chance → 0.5×0.5 = 25%",
-    "explanation_hi": "2 qubits uncertain hain → 0.5×0.5 = 0.25 = 25%"
+    "id": "h10",
+    "question_en": "A sequence begins with 1, 2. Every number after that is the sum of the two numbers before it. What is the tenth number in this sequence?",
+    "question_hi": "Ek sequence 1, 2 se shuru hoti hai. Uske baad har number apne se pehle ke do numbers ka jod (sum) hai. Is sequence mein dasvan number kya hai?",
+    "hint_en": "Write out the sequence step by step.",
+    "hint_hi": "Sequence ko step-by-step likho.",
+    "answer": "89",
+    "explanation_en": "This is a Pattern puzzle describing the Fibonacci sequence (starting from 1 and 2). The sequence is: 1, 2, 3, 5, 8, 13, 21, 34, 55, 89.",
+    "explanation_hi": "Yeh ek pattern puzzle hai jo Fibonacci sequence ko batata hai (1 aur 2 se shuru). Sequence hai: 1, 2, 3, 5, 8, 13, 21, 34, 55, 89."
   }
 ]
 
